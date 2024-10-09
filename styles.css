@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background:linear-gradient(to right, #d11696, #6259e2);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.h1-box{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.h1-box h1{
+    color: black;
+    background:linear-gradient(to right, #3494e6, #ec6ead);
+    padding: 10px 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.animation-box {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%; 
+   
+    
+}
+
+.animation-box h3 {
+    color: black;
+    background:linear-gradient(to right, #3494e6, #ec6ead);
+    padding: 10px 10px;
+    animation: fadeIn 3s ease-in-out;
+    border-radius: 25% 10%;
+    border-radius: 30px;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+form {
+    display: inline-block;
+    margin-top: 10px;
+
+}
+.form-box input{
+    background-color: #007bff; 
+    padding: 10px; 
+    border-radius: 10px; 
+}
+input[type="number"] {
+    padding: 10px 10px;
+    font-size: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+    
+}
+input:hover{
+    background-color: #e051c6;
+}
+
+button {
+    padding: 10px 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e051c6;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
